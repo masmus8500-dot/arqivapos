@@ -47,7 +47,7 @@
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.webp" alt=""> -->
         <img src="assets/css/profilarqivapos.jpg" alt="Logo" width="40" height="60">
-        <h1 class="sitename"><span>ARQIVA</span>POS</h1>
+        <h1 class="sitename"><span></span>ARQIVA POS</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -217,28 +217,23 @@
 
     <main>
       <section class="card intro">
-        <h2>Daftar Produk PBB</h2>
-        <p>Halaman ini menampilkan daftar produk Pajak Bumi dan Bangunan (PBB) yang tersedia di sistem ARQIVA POS H2H.
-          Anda dapat mencari produk, memfilter kategori, dan mengekspor data dalam format JSON.</p>
-        <div class="legend">Petunjuk: Ketik nama produk atau ID Pajak di kotak cari — pilih kategori untuk memfilter
-          hasil.</div>
-      </section>
+        <center>
+          <h2>Daftar Produk PBB</h2>
 
-      <section class="card">
-        <div class="controls">
-          <input id="searchInput" type="search" placeholder="Cari produk PBB..." />
-          <select id="categorySelect">
-            <option value="">Semua Kategori</option>
-          </select>
-          <button id="clearBtn" class="secondary">Reset</button>
-          <button id="exportBtn">Export JSON</button>
-        </div>
-      </section>
+          <p>Halaman ini menampilkan daftar produk Pajak Bumi dan Bangunan (PBB) yang tersedia di sistem ARQIVA POS H2H.
+          </p>
 
+          </div>
+        </center>
+      </section>
       <section class="card">
         <div class="product-list" id="productList">
           <!-- daftar produk PBB akan dirender di sini -->
-        </div>
+          <center>
+            <p>Untuk lebih detail produk kami silahkan</p>
+            <div class="legend"><a href="http://127.0.0.1:8000/produk" target="_blank">Klik Disini</a>
+            </div>
+          </center>
       </section>
     </main>
 
