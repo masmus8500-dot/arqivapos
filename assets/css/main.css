@@ -99,6 +99,114 @@ h6 {
   font-family: var(--heading-font);
 }
 
+/* Sections */
+.section {
+  padding: 3rem 0
+}
+
+.section-light {
+  padding: 3rem 0;
+  background: #fff
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: .25rem
+}
+
+.section-sub {
+  color: var(--muted);
+  margin-bottom: 1.25rem
+}
+
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem
+}
+
+.feature {
+  background: #fff;
+  padding: 1.25rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.06)
+}
+
+.feature-icon {
+  font-size: 1.6rem;
+  margin-bottom: .5rem
+}
+
+
+.two-col {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem
+}
+
+.side-box {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center
+}
+
+.price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent)
+}
+
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px
+}
+
+/* PRICING */
+.pricing {
+  text-align: center;
+  padding: 60px 10%;
+  background: #eef2ff;
+}
+
+.pricing h2 {
+  margin-bottom: 20px;
+}
+
+.pricing table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.pricing th,
+.pricing td {
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+
+.pricing th {
+  background: #8a2be2;
+  color: #fff;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background: #222;
+  color: #eee;
+  padding: 20px;
+}
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
